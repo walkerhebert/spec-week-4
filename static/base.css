@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+}
+
+
+main, header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.form-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    border: solid rgb(161, 46, 46) 2px;
+    border-radius: 5px;
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 200px;
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: red;
+    transition: ease-in-out .25s;
+}
+
+.nav-tabs{
+   justify-content: center;
+   margin-left: 9%;
+}
+.nav-item {
+    
+}
+
+.titleHome {
+    color: red;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .25%;
+    font-size: 35px;
+}
+
+.nav-item::marker {
+    color: rgb(31, 31, 31);
+}
+
+.table {
+    color: rgb(255, 255, 255);
+    font-size: 35;
+    font-weight: 700;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.form-group {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    font-size: 15px;
+    margin-bottom: 40%;
+    justify-content: space-around;
+}
+
+.navbar-expand {
+    background-color: rgb(28, 28, 28);
+}
+
+.navbar-custom {
+    background-color: lightgreen;
+}
