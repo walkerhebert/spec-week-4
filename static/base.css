@@ -114,3 +114,40 @@ h3 {
     font-size: 20px;
     font-weight: 700;
 }
+
+.projects-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-color {
+    color: red;
+}
+
+.margin-left {
+    margin-left: 14%;
+    text-align: center;
+    /* padding-left: 3%; */
+    width: 80%;
+}
+
+.btn-danger {
+    color: red;
+    border-radius: 5%;
+}
+.btn-danger:hover {
+    background-color: black;
+    border-radius: 5%;
+    transition: ease-in-out .25s;
+}
+
+.btn-primary {
+    color: red;
+    border-radius: 5%;
+}
+.btn-primary:hover {
+    background-color: black;
+    border-radius: 5%;
+    transition: ease-in-out .25s ;
+}

@@ -1,16 +1,18 @@
 {% extends "base.html" %} {% block main %}
 <div>
-  <table class="table table-bordered">
+  <table class="table table-bordered margin-left">
     <th>Project Name</th>
-    <th>Description</th>
-    <th>Completed?</th>
+    <th>Project Description</th>
+    <th>Is it completed?</th>
     <th>Team</th>
     {% for project in projects %}
     <tr>
-      <td>{{ project.project_name }}</td>
-      <td>{{ project.description }}</td>
-      <td>{{ project.completed }}</td>
-      <td>{{ project.team.team_name }}</td>
+      <div class="projects-nav">
+      <td class="nav-color">{{ project.project_name }}</td>
+      <td class="nav-color">{{ project.description }}</td>
+      <td class="nav-color">{{ project.completed }}</td>
+      <td class="nav-color">{{ project.team.team_name }}</td>
+      </div>
       <td>
         <a href="{{ url_for('update_project', project_id = project.id) }}">
           <button type="button" class="btn btn-primary">Update</button>
