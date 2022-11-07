@@ -108,3 +108,9 @@ h3 {
 .navbar-custom {
     background-color: lightgreen;
 }
+
+.form-title {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
